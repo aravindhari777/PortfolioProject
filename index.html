@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js" defer></script>
+    <title>Aravind Shilam - Frontend Developer</title>
+</head>
+
+<body>
+    <!-- only for keyboard users -->
+    <a class="skip-to-content" href="#main-content">Skip to content</a>
+
+    <header class="main-header">
+        <nav class="nav slide-in-top">
+            <div class="container">
+                <a href="#">
+                    <img src="ASlogo1.jpg" alt="ASlogo" class="logo" />
+                    <title>Logo</title>
+                </a>
+
+                <ul class="nav-list">
+                    <li>
+                        <a href="#about" class="nav-links hover-effect">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav-links hover-effect">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav-links hover-effect">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-links hover-effect">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="social-nav">
+                    <li>
+                        <a href="https://x.com/AravindShi23163" rel="noreferrer" target="_blank" aria-label="link to twitter profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" style="fill: currentColor">
+									<path
+										d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path>
+								</svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/aravind-hari-1891b7228  " rel="noreferrer" target="_blank" aria-label="link to linkedin profile"><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									style="fill: currentColor">
+									<circle cx="4.983" cy="5.009" r="2.188"></circle>
+									<path
+										d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+								</svg>
+							</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/aravindhari777" rel="noreferrer" target="_blank" aria-label="link to github account"><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									style="fill: currentColor">
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path>
+								</svg>
+							</a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <div class="line-menu half start"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu half end"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- hero section -->
+        <section class="hero">
+            <div class="container">
+                <article class="hero-text bounce-in-left">
+                    <div>
+                        <p class="subtitle">hi there 👋🏽, i'm</p>
+                        <h1 class="name">Aravind Shilam</h1>
+                    </div>
+                    <div>
+                        <p class="intro">
+                            A self-taught Frontend Developer based in Hyderabad, India, passionate about crafting exceptional digital experiences using HTML, CSS, and JavaScript.
+                        </p>
+
+                        <div class="hero-btn-container">
+                            <a href="mailto:aravindhari71437@gmail.com" class="btn hire-btn">
+									Hire Me
+								</a>
+                            <a href="https://drive.google.com/file/d/1OROPdyFFqHBn2-DbfEai8QCHgPdJs7jr/view?usp=drive_link" download="" class="btn download-link">Download CV</a>
+                        </div>
+                    </div>
+                </article>
+                <img src="https://t3.ftcdn.net/jpg/06/21/65/90/360_F_621659086_6mcq5SwsLmPokc5Twk6guo4RbgefYobS.jpg" alt="coding desk" class="fade-in code" />
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about-me" id="about">
+            <div class="container" data-aos="fade-up">
+                <img src="MyPhoto.jpg" alt="Aravind Shilam" />
+                <article>
+                    <p class="subtitle">Who is Aravind Shilam?</p>
+                    <h2 class="title">A Bit About Me</h2>
+                    <div class="about">
+                        <p>
+                            I'm a passionate Frontend Developer who thrives on solving challenging problems and crafting exceptional digital experiences
+                        </p>
+                        <p>
+                            Over time, I’ve contributed to meaningful projects and collaborated with fellow developers to build functional, user-friendly applications. I take pride in writing clean, maintainable, and understandable code.
+                        </p>
+                        <p>
+                            Through continuous learning and hands-on practice, I’ve developed a strong grasp of web development concepts and consistently apply them to real-world projects.
+                        </p>
+                        <p>
+                            When I'm not trying to build, learning, exploring and thinking about how to make things better 😉, you can catch me watching football matches ⚽.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- my skills -->
+        <section class="my-skills" id="skills" data-aos="fade-up">
+            <div class="container">
+                <article>
+                    <p class="subtitle">My Skills</p>
+                    <h2 class="title">Technologies I Work With</h2>
+
+                    <p class="info">
+                        I’ve completed several online courses and am currently getting my hands dirty with building interactive frontend projects using HTML, CSS, and JavaScript to deepen my practical knowledge."
+                        <strong>Flutter & React Native</strong> and here are a few technologies I’ve been working with recently:
+                    </p>
+                </article>
+                <ul>
+                    <li>Java</li>
+                    <li>HTML & CSS</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>React Js</li>
+                    <li>MySQL</li>
+                    <li>Git</li>
+                    <li>Github</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- projects section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <article data-aos="fade-up">
+                    <p class="subtitle">My projects</p>
+                    <h2 class="title">Some Things I Built</h2>
+                    <p class="info">
+                        I like to stay busy and always have a project in the works. Take a look at some of the applications I've have built
+                    </p>
+                </article>
+                <section class="projects">
+                    <!-- 01 -->
+                    <article class="project">
+                        <a href="#" target="_blank" rel="noreferrer" class="project-img"><img src="https://pub.mdpi-res.com/sensors/sensors-22-03858/article_deploy/html/images/sensors-22-03858-g001.png?1653033832" alt="cloud image" /></a>
+                        <div>
+                            <h3>01</h3>
+                            <h2>A Lightweight Secure Data Sharing Scheme for Mobile Cloud Computing </h2>
+                            <p>
+                                The Lightweight Secure Data Sharing Scheme enhances security and privacy in mobile cloud computing with efficient encryption. It ensures secure authentication, data integrity, and confidentiality while minimizing computational overhead. This approach
+                                prevents unauthorized access and reduces data breach risks.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>JAVA</li>
+                                <li>HTML&CSS</li>
+                                <li>MYSQL</li>
+                                <li>Firebase </li>
+                                <li>AES Encryption</li>
+                                <li>Eclipse</li>
+                                <li>ABE(Attribute Based Encryption)</li>
+                            </ul>
+
+                        </div>
+                    </article>
+
+                    <!-- 02 -->
+                    <article class="project">
+                        <a href="#" target="_blank" rel="noreferrer" class="project-img"><img src="ApplicationForm.jpg" alt="the application form screenshot" /></a>
+                        <div>
+                            <h3>02</h3>
+                            <h2>Recruitment Application Form with Validation</h2>
+                            <p>
+                                The Company Application Form streamlines job applications with a user-friendly, web-based interface. Built with HTML, CSS, and JavaScript, it ensures accurate data validation and efficient information collection. Applicants can easily submit personal
+                                details, qualifications, work experience, and resumes, enhancing the hiring process. </p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+
+                            </ul>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="https://aravindhari777.github.io/Application-Form-Project/" target="_blank" rel="noreferrer" class="hover-effect">Live Site →</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/aravindhari777/Application-Form-Project"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+						<!-- 03 -->
+						<article class="project">
+							<a
+								href="https://gh-profiles.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								class="project-img"
+								><img
+									src="githubfetchdata.png"
+									alt="github profile website screenshot"
+									title="github profile"
+							/></a>
+                                    <div>
+                                        <h3>03</h3>
+                                        <h2>Github Profile</h2>
+                                        <p>
+                                            A better and interesting look at your github profile which includes data visualization of your top languages, starred repos, stars per language and sort your top repos according to the number of forks, stars and size.
+                                        </p>
+                                        <ul class="tech-stack">
+                                            <li>HTML&CSS</li>
+                                            <li>Github GraphQL Api</li>
+                                            <li>Styled Component</li>
+                                            <li>Chart Js</li>
+                                            <li>Github Polyghot</li>
+                                        </ul>
+                                        <ul class="project-links">
+                                            <li>
+                                                <a href="https://aravindhari777.github.io/githubfetchdata/" target="_blank" rel="noreferrer" class="hover-effect">Live Site →</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/aravindhari777/githubfetchdata"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+						<!-- 04 -->
+						<article class="project">
+							<a
+								href="https://covid-map-dashboard.netlify.app/"
+								target="_blank"
+								rel="noreferrer"
+								class="project-img"
+								><img
+									src="Paintphoto.png"
+									alt="covid map dashboard website screenshot"
+									title="covid map dashboard"
+							/></a>
+                                                <div>
+                                                    <h3>04</h3>
+                                                    <h2>Paint Project</h2>
+                                                    <p>
+                                                        A simple and interactive browser-based drawing application that allows users to draw, erase, and create digital sketches using mouse interactions. Designed with a clean and responsive UI, this project mimics basic paint software functionality.
+                                                    </p>
+                                                    <ul class="tech-stack">
+                                                        <li>HTML</li>
+                                                        <li>CSS Modules</li>
+                                                        <li>JavaScript</li>
+                                                    </ul>
+                                                    <ul class="project-links">
+                                                        <li>
+                                                            <a href="https://aravindhari777.github.io/PaintProject/" target="_blank" rel="noreferrer" class="hover-effect">
+											Live Site →
+										</a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="https://github.com/aravindhari777/PaintProject" target="_blank" rel="noreferrer" class="hover-effect">
+											Github →
+										</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                    </article>
+
+                    <!-- 05 -->
+                    <article class="project">
+                        <a href="https://williamssam.github.io/ip-address-tracker/" target="_blank" rel="noreferrer" class="project-img"><img src="quotes.png" alt="ip address tracker website screenshot" title="ip address tracker" /></a>
+                        <div>
+                            <h3>05</h3>
+                            <h2>Quotes Project</h2>
+                            <p>
+                                A dynamic and responsive web application that displays inspirational, motivational, or random quotes to users. The application is built entirely using frontend technologies and provides a clean, user-friendly interface with engaging UI elements. This
+                                project was designed to help users get a boost of positivity and reflection through thought-provoking quotes. It emphasizes simplicity, elegance, and interactivity. </p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+
+                            </ul>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="https://quotes-project-sooty.vercel.app/" target="_blank" rel="noreferrer" class="hover-effect">Live Site →</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://github.com/aravindhari777/QuotesProject"
+											target="_blank"
+											rel="noreferrer"
+											class="hover-effect"
+											>Github →</a
+										>
+									</li>
+								</ul>
+							</div>
+						</article>
+
+					</section>
+
+					<!-- others -->
+					<section class="other-noteworthy-project" data-aos="fade-up">
+						<h3>Other Noteworthy Projects</h3>
+						<ul class="other-projects">
+							<li>
+								<a
+									href="https://weather-project-two-omega.vercel.app/"
+									target="_blank"
+									rel="noreferrer"
+									><img
+										src="weather.png"
+										alt="weather app" />
+									<div>
+										<h4>Weather App</h4>
+										<p>
+											A sleek and responsive web application that allows users to check real-time weather updates for cities across India. Built entirely with frontend technologies, the app features a clean UI, intuitive layout, and dynamic data display for a smooth user experience.
+										</p>
+										<ul>
+											<li>HTML</li>
+											<li>CSS</li>
+										</ul>
+									</div></a
+								>
+							</li>
+							<li>
+								<a
+									href="#"
+									target="_blank"
+									rel="noreferrer"
+									>
+									<img
+										src="GUI Calander.png"
+										alt="GUI screenshot" />
+									<div>
+										<h4>GUI CALENDER</h4>
+										<p>
+                                            This PBL project represents the process of creating the “GUI Calender Using Python”, we will 
+                                            need to import two python modules one for creating GUI i.e, “tkinter” and another to get year      
+                                            data i.e, “calender module”.										</p>
+										<ul>
+											<li>Python</li>
+                                            <li>Tkinter</li>
+										</ul>
+									</div></a
+								>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+			<!-- contact section -->
+			<section class="contact" data-aos="fade-up">
+				<div class="container">
+					<p class="subtitle">Have a project? or just looking to hire?</p>
+					<h2 class="title">Let's Work Together</h2>
+					<p class="info">
+						Feel free to reach out if you're looking to hire, just want to
+						connect or see if we can build something amazing together.
+					</p>
+
+					<div>
+						<a href="mailto:aravindhari71437@gmail.com" class="mail-link hover-effect"
+							>Get in touch →</a
+						>
+						<!-- <small>(or copy) samwill300@gmail.com</small> -->
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer" id="contact">
+			<div class="container">
+				<p>&copy; <span id="date"></span> Aravind Shilam</p>
+				<div>
+					<ul>
+						<li>
+							<a
+								href="https://github.com/aravindhari777  "
+								rel="noreferrer"
+								target="_blank"
+								class="hover-effect"
+								>Github</a
+							>
+						</li>
+                        <li>
+							<a
+								href="https://www.linkedin.com/in/aravind-hari-1891b7228"
+								rel="noreferrer"
+								target="_blank"
+								class="hover-effect"
+								>Linkedin</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://x.com/AravindShi23163"
+								rel="noreferrer"
+								target="_blank"
+								class="hover-effect"
+								>Twitter</a
+							>
+						</li>
+					</ul>
+					<a href="#top" class="top">
+						<p class="scroll">scroll <span>to top</span></p>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							style="fill: currentColor">
+							<title>scroll to top</title>
+							<path
+								d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z"></path>
+							<path
+								d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z"></path>
+						</svg>
+					</a>
+                        </div>
+                        </div>
+                        </footer>
+</body>
+
+</html>
